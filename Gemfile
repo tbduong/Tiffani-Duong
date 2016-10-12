@@ -28,6 +28,10 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 #materialize-sass
 gem 'materialize-sass'
+#jquery-turbolinks
+gem 'jquery-turbolinks'
+
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
