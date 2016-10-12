@@ -27,8 +27,8 @@ $border: #E9E9E9;
 }
 
 .name {
-  font-weight: 700;
-  font-size: 0.85em;
+  font-weight: 600;
+  font-size: 0.80em;
   text-transform: uppercase;
   border: 2px solid $border;
   padding: 0.75em 1rem;
@@ -37,8 +37,18 @@ $border: #E9E9E9;
   float: left;
 }
 
+.name-head {
+    margin-top: 10%;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+}
+.splash-text:hover{
+    opacity:0.5 !important;
+}
+
 nav {
   float: right;
+  opacity: 0.9;
   a {
     color: $dark;
     text-decoration: none;
@@ -48,6 +58,7 @@ nav {
 }
 
 .learn-more {
-  margin-left: 45%;
+  margin-left: 47%;
   margin-top: 5%;
+  font-size: 900;
 }
