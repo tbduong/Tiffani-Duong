@@ -17,6 +17,6 @@
 //= require_tree .
 
 $(document).ready(function(){
+    //execute parallax on background images
       $('.parallax').parallax();
     });
-        

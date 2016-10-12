@@ -44,6 +44,7 @@ $border: #E9E9E9;
 }
 .splash-text:hover{
     opacity:0.5 !important;
+    color: black !important;
 }
 
 nav {
@@ -61,4 +62,10 @@ nav {
   margin-left: 47%;
   margin-top: 5%;
   font-size: 900;
+}
+
+.parallax-container {
+  height: 200px !important;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg") fixed;
+  width: 100%
 }
