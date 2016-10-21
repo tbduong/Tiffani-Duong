@@ -11,6 +11,12 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
+//= require jquery.turbolinks
+//= require materialize
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function(){
+    //execute parallax on background images
+      $('.parallax').parallax();
+    });
