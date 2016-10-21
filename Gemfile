@@ -30,6 +30,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'materialize-sass'
 #jquery-turbolinks
 gem 'jquery-turbolinks'
+gem 'pg'
 
 
 
